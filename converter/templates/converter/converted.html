@@ -1,0 +1,10 @@
+{% extends 'converter/base.html' %}
+
+{% block content %}
+
+<div class="row h-100" style="position:absolute">
+  <div class="col-12 align-self-center">
+    <h1 class="display-3">{{input_weight}} {{weight_from}}{{input_weight|pluralize}} = {{weight}} {{weight_to}}{{weight|pluralize}}</h1>
+  </div>
+</div>
+{% endblock %}
